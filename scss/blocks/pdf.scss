@@ -52,3 +52,26 @@
     top: -280px;
     left: -15px;
 }
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+    .inf4 {
+        padding: 250px 50px 0 50px;
+        width: 100%;
+        &::after {
+            right: 51px;
+            width: 990px;
+            top: 200px;
+            }
+        &__text {
+            font-size: 18px;
+            padding: 0 0 100px 20px;
+        }
+    }
+    .nav__item_buttom3 {
+        top: -180px;
+        left: 45px;
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+}
