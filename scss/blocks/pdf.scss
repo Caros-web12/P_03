@@ -74,4 +74,22 @@
 }
 
 @media screen and (max-width: 767px) {
+    .inf4 {
+        padding: 250px 15px 0 15px;
+        width: 100%;
+        &::after {
+            right: 51px;
+            width: 990px;
+            top: 200px;
+            }
+        &__text {
+            font-size: 18px;
+            padding: 0 0 100px 20px;
+        }
+    }
+    .nav__item_buttom3 {
+        top: -180px;
+        left: 45px;
+        
+    }
 }
