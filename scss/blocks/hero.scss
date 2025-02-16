@@ -100,12 +100,13 @@
   @media screen and (max-width: 767px) {
     .hero {
         padding: 15px;
+        font-size: 40px;
         &__image {
             height: 100%;
             object-fit: contain;
         }
         &__title {
-            font-size: 24px;
+            font-size: 40px;
             max-width: 100%;
             margin-bottom: 20px;
             &::after {
@@ -125,8 +126,9 @@
     }
     .hero-nav {
         display: flex;
+        margin-top: 55px;
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-evenly;;
         &__item {
             font-size: 14px;
             text-align: center;
